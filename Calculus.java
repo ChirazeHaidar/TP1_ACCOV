@@ -19,10 +19,11 @@ class Calculus extends Thread
      _l = L;
     }
     
+    @Override
     public void run()
     {
      Date T = new Date(_l);
-     new String (T.toString());
+     _s = T.toString();
      
      try
      {
